@@ -1,0 +1,149 @@
+#Main_control {
+    display: flex;
+}
+.MC_aside {
+    width: 36%;
+    padding: 10px;
+    background-color: #e2e7ff;
+}
+.MC_body {
+    height: calc(100vh - 155px); 
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    padding: 5px 20px;
+    background-color: rgb(220,225,237);
+}
+.font_style {
+    font-style: italic;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: rgb(192, 196, 208);
+}
+img {
+	border: none;
+	display: block;
+}
+.bold{
+    color: blueviolet;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aside_menu {
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    white-space: nowrap
+}
+.aside_menu a {
+    color: blue;
+    text-decoration: none;
+}
+.aside_menu:hover {
+    background: skyblue;
+}
+.aside_menu a:hover {
+    color: #fff;
+}
+.italics{
+    font-style: italic;
+}
+.background{
+    background-color:rgb(182, 182, 126);
+}
+nav {
+    background-color: #a1b6f0;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    border: solid 2px;
+    border-radius: 5px;
+    color: #010911;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+nav a {
+    color: rgb(5, 28, 87);
+    text-decoration: none;
+    font-weight: bold;
+}
+ header {
+     width: 1000px;
+     margin: 0 auto;
+     text-align: left;
+     font-size: 15px;
+     font-family: unset;
+
+
+ }
+body {
+     height: auto;
+     overflow: auto;
+ }
+ header {
+     width: 1000px;
+     margin: 0 auto;
+     text-align: left;
+     font-size: 15px;
+     font-family: unset;
+ }
+ footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+ /* firefox */
+* {
+  scrollbar-color: transparent transparent; 
+  scrollbar-width: thin; 
+}
+/* IE and goole */
+::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  height: 2px;
+}
+::-webkit-scrollbar-track {
+  display: block;
+  width: 2px !important;
+  background: rgba(204,204,204,.1) !important;
+  -webkit-border-radius: 2em !important;
+  -moz-border-radius: 2em !important;
+  border-radius: 2em!important;;
+}
+::-webkit-scrollbar-thumb {
+  display: block;
+  background: rgb(196, 194, 194) !important;
+  background-clip: padding-box !important;
+  min-height:28px !important ;
+  -webkit-border-radius: 2em !important;
+  -moz-border-radius: 2em !important;
+  border-radius: 2em!important;;
+}
+

@@ -1,0 +1,134 @@
+.type_area {
+  width: 1000px;
+  overflow: auto;
+}
+.carousel img {
+  height: 450px;
+  width: 750px;
+}
+.carousel li,
+.block_mediate li,
+.points li {
+  list-style: none;
+}
+.block_mediate {
+  margin: 0 auto;
+}
+body,
+div,
+html,
+button {
+  padding: 0;
+  margin: 0;
+}
+.carousel_container {
+  position: relative;
+  height: 450px;
+  width: 750px;
+  overflow: hidden;
+}
+/*.carousel{*/
+/**/
+
+/*}*/
+.cpuimage_elm {
+  height: 100%;
+  width: 100%;
+  font-size: 60px;
+  font-family: Consolas;
+  color: wheat;
+  position: absolute;
+  line-height: 300px;
+  text-align: center;
+  opacity: 0;
+  transition: all 1s;
+}
+.cpuimage_elm:nth-child(1) {
+  background-color: orange;
+}
+.cpuimage_elm:nth-child(2) {
+  background-color: purple;
+}
+.cpuimage_elm:nth-child(3) {
+  background-color: yellowgreen;
+}
+.cpuimage_elm:nth-child(4) {
+  background-color: brown;
+}
+.cpuimage_elm:nth-child(5) {
+  background-color: darkgoldenrod;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 40px;
+  position: absolute;
+  top: 193px;
+  z-index: 1230;
+}
+button:hover {
+  background-color: rgba(1, 1, 1, 0.5);
+  cursor: pointer;
+}
+
+.right {
+  color: #fff;
+  right: 0px;
+}
+.left {
+  color: #fff;
+  left: 40px;
+}
+.points {
+  height: 30px;
+  width: 200px;
+  background-color: rgba(29, 22, 19, 0.2);
+  position: absolute;
+  bottom: 20px;
+  left: 270px;
+  border-radius: 10px 10px 10px 10px;
+  z-index: 1230;
+}
+.points_item {
+  height: 15px;
+  width: 15px;
+  background-color: wheat;
+  float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 7px;
+}
+.points_item:hover {
+  cursor: pointer;
+}
+.cpuimage_elm.active {
+  z-index: 123;
+  opacity: 1;
+}
+.points_item.active {
+  background-color: black;
+}
+.btn {
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(192, 196, 208);
+}
+.btn > div {
+  box-sizing: border-box;
+  margin-top: 10px;
+  cursor: pointer;
+  line-height: 40px;
+  border: 1px solid #555555;
+  border-radius: 10px;
+  text-align: center;
+  color: #555555;
+  transition: all 0.6s;
+}
+.btn > div:hover {
+  background-color: #555555;
+  color: #fff;
+}

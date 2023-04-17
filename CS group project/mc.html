@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main Components</title>
+  <link rel="stylesheet" href="./css/css.css" type="text/css" />
+  <link rel="stylesheet" media="all" href="./css/switchCss.css" type="text/css" />
+</head>
+
+<body>
+  <!--navigation-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="What is CPU.html">What is CPU?</a></li>
+      <li><a href="mc.html">Main Components</a></li>
+      <li><a href="ip.html">Instructions Processing</a></li>
+      <li><a href="ar.html">Architectures</a></li>
+      <li><a href="rl.html">Reference List</a></li>
+    </ul>
+  </nav>
+  <div id="Main_control">
+    <div class="MC_aside">
+      <!-- <p>
+      The <span class="bold">central processing unit (CPU)</span> consists of
+      six main components:
+    </p> -->
+      <div class="aside_menu">
+        <a href="#CU">Control unit (CU)</a>
+      </div>
+      <div class="aside_menu">
+        <a href="#ALU">Arithmetic logic unit (ALU)</a>
+      </div>
+      <div class="aside_menu">
+        <a href="#Registers">Registers</a>
+      </div>
+      <div class="aside_menu">
+        <a href="#Cache">Cache</a>
+      </div>
+      <div class="aside_menu">
+        <a href="#Buses">Buses</a>
+      </div>
+      <div class="aside_menu">
+        <a href="#Clock">Clock</a>
+      </div>
+      <!-- <ol>
+      <li><a href="#CU">Control unit (CU)</a></li>
+      <li><a href="#ALU">Arithmetic logic unit (ALU)</a></li>
+      <li><a href="#Registers">Registers</a></li>
+      <li><a href="#Cache">Cache</a></li>
+      <li><a href="#Buses">Buses</a></li>
+      <li><a href="#Clock">Clock</a></li>
+    </ol> -->
+    </div>
+    <div id="MC" class="MC_body">
+      <h1>Main Components</h1>
+      <div class="exterior_container">
+        <div class="carousel_container type_area block_mediate">
+          <ul class="carousel">
+            <li class="cpuimage_elm active">
+              <img src="./images/processor.jpg" alt="processor" class="src" />
+            </li>
+            <li class="cpuimage_elm">
+              <img src="./images/01.png" alt="processor" class="src" />
+            </li>
+            <li class="cpuimage_elm">
+              <img src="./images/ALU_block.gif" alt="processor" class="src" />
+            </li>
+            <li class="cpuimage_elm">
+              <img src="./images/03.png" alt="processor" class="src" />
+            </li>
+            <li class="cpuimage_elm">
+              <img src="./images/02.png" alt="processor" class="src" />
+            </li>
+          </ul>
+          <button class="left">
+            << /button>
+              <button class="right">></button>
+              <ul class="points block_mediate">
+                <li class="points_item active" data-index="0"></li>
+                <li class="points_item" data-index="1"></li>
+                <li class="points_item" data-index="2"></li>
+                <li class="points_item" data-index="3"></li>
+                <li class="points_item" data-index="4"></li>
+              </ul>
+        </div>
+      </div>
+      <p class="content">
+        As we have all been aware, the Central Processing Unit(CPU) is
+        responsible for every important task carried out in our computer
+        system, such as processing data and instructions. However, it is all
+        possible because the CPU's components are merging work into one and
+        being processed quickly to achieve a desirable result. In subsequent
+        sections, we're going to assess those components.
+      </p>
+      <!-- Control unit module -->
+      <div id="CU">
+        <h1>1.Control unit</h1>
+        <div class="content">
+          <p>
+            The control unit shall be responsible for determining how the
+            CPU's input and output equipment, arithmetical and logic units as
+            well as computer memory responds to instructions delivered by the
+            CPU. It will take the input, convert it into a decoded form, and
+            send that data to your computer's processor for processing in
+            order to perform the desired action. There are two types of
+            control units: hardwired and microprogrammed CU.
+          </p>
+          <h3 class="font_style">Functions of Control Unit:</h3>
+          <ol>
+            <li>
+              This checks the sequence in which instructions are inserted and
+              left of a processor, as well as how they are executed.
+            </li>
+            <li>
+              It shall be responsible for the retrieval and conversion of that
+              input to signals and its storage in order to continue
+              processing.
+            </li>
+            <li>
+              This controls the functioning of other CPU components, such as
+              ALU and Registers.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <!-- Arithmetic Logic Unit(ALU) module -->
+      <div id="ALU">
+        <h1>2.Arithmetic Logic Unit(ALU)</h1>
+        <div class="content">
+          <p>
+            The unit responsible for arithmetic and logical calculations, as
+            well as decision-making in a system, shall be the Mathematical and
+            Logical Unit. It's also known as the computer's mathematical
+            brain. The registers are used by ALU to calculate. Input from the
+            input registers is used to perform operations on data, and outputs
+            are stored in an output register.
+          </p>
+          <h3 class="font_style">Functions of ALU:</h3>
+          <ul>
+            <li>
+              Decision making such as arithmetic and logic operations are
+              mostly carried out using it.
+            </li>
+            <li>
+              They are used to bridge between the main and secondary memory of
+              a computer. The ALU shall transmit all the information exchanged
+              between primary and secondary memory.
+            </li>
+            <li>
+              <span class="italics background"><b>Calculations are performed by the ALU and decisions are
+                  made on a rational basis.</b></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Registers module -->
+      <div id="Registers">
+        <h1>3.Registers</h1>
+        <div class="content">
+          <p>
+            Registers are in a computer's memory which is used for temporary
+            storage of instructions to be passed on to the processor when
+            necessary. As they play a significant role in the processing of
+            data, these registers are also referred to as processors. The
+            register stores data in the form of a memory address, which is
+            stored after you have processed the instruction present on that
+            memory address and are therefore storing your next instruction's
+            memory address. Each type of register is capable of performing a
+            variety of functions.
+          </p>
+          <h3 class="font_style">Functions of Registers:</h3>
+          <ul>
+            <li>Input registers are used to carry the input.</li>
+            <li>The output registers are used to store the output.</li>
+            <li>
+              Data are stored in temporary registers for a short period of
+              time.
+            </li>
+            <li>
+              The address of the instructions is stored on the program's
+              counter.
+            </li>
+            <li>
+              The program counter stores the address of the instructions.
+            </li>
+            <li>The memory operands are stored in the data registers.</li>
+            <li>
+              The instruction codes are stored in the instruction registers.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Cache module -->
+      <div id="Cache">
+        <h1>4.Cache</h1>
+        <div class="content">
+          <p>
+            The cache is a type of random access memory which, temporarily,
+            can store limited amounts of information or instructions so that
+            they may be used again and again. It'll make it easier to find
+            instructions because they won't need to be fetched out of the RAM,
+            and you can get them directly from Cache in a short time.
+          </p>
+          <h3 class="font_style">Functions of Cache:</h3>
+          <ul>
+            <li>
+              It reduces the time needed to get instructions and execute them.
+            </li>
+            <li>
+              Data are stored for a temporary period of time to be used in the
+              future
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Cache module -->
+      <div id="Buses">
+        <h1>5.Buses</h1>
+        <div class="content">
+          <p>
+            The bus is used to communicate between different components of a
+            computer system and the processor. They are intended to send
+            signals and data from the processor to various devices as well, so
+            that they can be exchanged. The address bus is used to send memory
+            addresses from processes to other components, there are three
+            types of bus. Sending real data from the processor to the
+            components, and sending control signal from the processor to
+            others are carried out by a Data Bus.
+          </p>
+          <h3 class="font_style">Functions of Bus:</h3>
+          <ul>
+            <li>It's used to send data between different devices.</li>
+            <li>It'll provide power to various components of the system.</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Clock module -->
+      <div id="Clock">
+        <h1>6.Clock</h1>
+        <div class="content">
+          <p>
+            The clock will control the timing and speed of all CPU functions,
+            as its name suggests. It sends electrical signals to control the
+            time and speed of functions.
+          </p>
+          <h3 class="font_style">Functions of Clock:</h3>
+          <ul>
+            <li>
+              This keeps the components of your computer system synchronized.
+            </li>
+            <li>It tracks the current time and date.</li>
+          </ul>
+          <p>
+            All of these are the core components of the CPU responsible for
+            ensuring that instructions and information are processed properly
+            in a computer system.
+          </p>
+        </div>
+      </div>
+      <p class="italics">
+        (All components work together to allow processing and system control.)
+      </p>
+      <h1>Let’s do a quiz about main components of CPU!</h1>
+
+      <div class="btn">
+        <h3>Which part of CPU performs calculations and makes logical decisions?</h3>
+        <div onclick="prompt(0)">A.Control unit</div>
+        <div onclick="prompt(1)">B.Arithmetic logic unit</div>
+        <div onclick="prompt(0)">C.Register</div>
+        <div onclick="prompt(0)">D.Cache</div>
+        <div onclick="prompt(0)">E.Buses</div>
+        <div onclick="prompt(0)">F.Clock</div>
+      </div>
+      <h3>Reference List:</h3>
+      <ol>
+        <li>
+          Factors affecting CPU performance - Computer systems - AQA - GCSE
+          computer science revision - AQA - BBC bitesize. (n.d.). Retrieved
+          from https://www.bbc.co.uk/bitesize/guides/z7qqmsg/revision/5
+        </li>
+        <li>
+          Agarwal, N. (2021, June 4). Components of CPU and their functions in
+          computer. Retrieved from
+          https://www.thecrazyprogrammer.com/2021/06/components-of-cpu.html
+        </li>
+        <li>
+          Arithmetic logic unit. (2023, March 30). Retrieved from
+          https://en.wikipedia.org/wiki/Arithmetic_logic_unit
+        </li>
+      </ol>
+      <footer>
+        <p>
+          &copy; LUO ZHIHAO PART-CS1102 - Course Project - 2022/2023 Semester
+          B - HUANG JINAN, LUO ZHIHAO, PAN QIUREN, WANG YIFAN
+        </p>
+      </footer>
+    </div>
+  </div>
+  <script>
+    // rotograph
+    let img_Array = document.getElementsByClassName("cpuimage_elm");
+
+    let leftBtn = document.getElementsByClassName("left")[0];
+
+    let rightBtn = document.getElementsByClassName("right")[0];
+
+    let point_Array = document.getElementsByClassName("points_item");
+
+    // Got the correct element
+    let index = 0; //Initializes an index value used to switch images.
+    let clearActive = function () {
+      for (let i = 0; i < img_Array.length; i++) {
+        img_Array[i].className = "cpuimage_elm";
+        point_Array[i].className = "points_item";
+      }
+    };
+    let goRight = function () {
+      clearActive();
+      if (index < 4) {
+        index++;
+      } else {
+        index = 0;
+      }
+      img_Array[index].className = "cpuimage_elm active";
+      point_Array[index].className = "points_item active";
+    };
+    let goRight_auto = goRight;
+    rightBtn.addEventListener("click", goRight);
+
+    let goLeft = function () {
+      clearActive();
+      if (index > 0) {
+        index--;
+      } else {
+        index = 4;
+      }
+      img_Array[index].className = "cpuimage_elm active";
+      point_Array[index].className = "points_item active";
+    };
+
+    leftBtn.addEventListener("click", goLeft);
+
+    setInterval(function () {
+      goRight_auto();
+    }, 5000);
+
+    let carouselContainer =
+      document.getElementsByClassName("carousel_container")[0];
+    for (let i = 0; i < point_Array.length; i++) {
+      point_Array[i].addEventListener("click", function () {
+        index = this.getAttribute("data-index") - 1;
+        goRight();
+      });
+    }
+    carouselContainer.addEventListener("mouseover", function () {
+      goRight_auto = function () { };
+    });
+    carouselContainer.addEventListener("mouseleave", function () {
+      goRight_auto = goRight;
+    });
+
+    // tip
+    function prompt(parameter) {
+      if (parameter == 1) {
+        alert("Excellent work! ");
+      } else {
+        alert("Try it again!");
+      }
+
+    }
+  </script>
+</body>
+
+</html>

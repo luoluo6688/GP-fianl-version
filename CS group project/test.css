@@ -1,0 +1,85 @@
+/* Styling for large screens */
+nav {
+    background-color: #a1b6f0;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin:0;
+    text-align: center;
+    padding: 0;
+    border: solid 2px;
+    border-radius: 5px;
+    color: #010911;
+    font-size: 20px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 50px;
+  }
+  
+  nav a {
+    color: rgb(5, 28, 87);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Styling for medium screens */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #a1b6f0;
+      color: white;
+      text-align: center;
+    }
+  
+    nav ul {
+      display: block;
+      margin: 0;
+      padding: 0;
+      border: none;
+      border-radius: 0;
+      height: auto;
+      line-height: normal;
+    }
+  
+    nav li {
+      display: block;
+      margin: 0;
+      border-bottom: solid 1px white;
+    }
+  
+    nav li:last-child {
+      border-bottom: none;
+    }
+  
+    nav a {
+      display: block;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: normal;
+    }
+  }
+  
+  /* Styling for small screens */
+  @media screen and (max-width: 480px) {
+    nav li {
+      margin: 0;
+      border-bottom: none;
+    }
+  
+    nav li:last-child {
+      border-bottom: none;
+    }
+  
+    nav a {
+      padding: 10px 0;
+      font-size: 16px;
+    }
+  }
+  
